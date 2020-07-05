@@ -119,4 +119,4 @@ class Container extends Component {
   }
 }
 
-export default container;
+export default Container;

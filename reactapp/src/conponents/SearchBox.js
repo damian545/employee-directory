@@ -29,7 +29,7 @@ function SearchBox(props) {
                 className=" btn z-depth-2 waves-effect  searchBttn"
                 onClick={props.handleSearch}
               >
-                <p>Search</p>
+                <p>search</p>
               </button>
             </div>
           </div>
@@ -39,4 +39,4 @@ function SearchBox(props) {
   );
 }
 
-export default searchBox;
+export default SearchBox;
