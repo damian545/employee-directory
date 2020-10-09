@@ -8,6 +8,7 @@ function SearchBox(props) {
         <div className="row">
           <div className="col s6">
             <h3 className="right-align headerText">Employee Directory</h3>
+            <hr />
           </div>
           <div className="col s6 ">
             <div className="col s6 inputAndButton right-align ">
@@ -19,17 +20,17 @@ function SearchBox(props) {
                 name="search"
                 list="employee"
                 className=" inputBox  "
-                placeholder="Search by name"
+                placeholder="Search By Name"
               />
             </div>
             <div className="col m4">
               <button
                 type="submit"
                 value=""
-                className=" btn z-depth-2 waves-effect  searchBttn"
+                className=" btn z-depth-2 waves-effect  searchBtn"
                 onClick={props.handleSearch}
               >
-                <p>search</p>
+                <p>SEARCH</p>
               </button>
             </div>
           </div>

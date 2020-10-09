@@ -1,5 +1,5 @@
 body {
-  background-color: ghostwhite;
+  background-color: rgb(108, 207, 194);
 }
 table {
   margin-top: 15px;
@@ -9,14 +9,15 @@ th {
   font-size: 17px;
   letter-spacing: 1px;
   font-family: "Inria Serif", serif;
-  color: silver;
+  color: rgb(182, 129, 32);
   cursor: pointer;
 }
 
 header {
   padding: 15px;
   margin-top: 20px;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(235, 72, 72);
+  border-radius: 10px;
 }
 .email {
   color: rgb(28, 28, 235);
@@ -26,17 +27,17 @@ header {
   margin-top: 40px;
 }
 
-.searchBttn {
+.searchBtn {
   margin-top: 40px;
-  border-radius: 20px;
+  border-radius: 10px;
   letter-spacing: 1px !important;
-  font-size: 10px;
+  font-size: 15px;
   background-color: #2b4162;
-
+  box-shadow: lightyellow 1px 1px 8px;
   font-weight: bolder;
 }
 p {
-  color: white;
+  color: lightyellow;
 }
 
 img {
@@ -47,10 +48,16 @@ img {
 .headerText {
   letter-spacing: 1px;
   font-size: 60px;
-  font-family: "Inria Serif", serif;
+  font-family: "Lobster", cursive;
   font-weight: lighter;
-  text-shadow: rgb(102, 102, 102) 1px 1px 1px;
+  text-shadow: lightyellow 3px 3px 3px;
   color: black;
+}
+
+hr {
+  border: 2px solid black;
+  box-shadow: lightyellow 3px 3px 3px;
+  width: 100%;
 }
 
 input:focus,
